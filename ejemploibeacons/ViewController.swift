@@ -46,15 +46,10 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             var texto = "\(closestBeacon.accuracy)"
             self.cajadistancia.text = "\(cajadistancia.text) \(texto)"
             if closestBeacon.accuracy > 3 {
-                //viewDidDisappear(true)
-                
                 cajatexto.text = "se alejo"
             }else{
                 cajatexto.text = "sige cerca"
-                //viewDidAppear(true)
             }
-            //viewDidAppear(true)
-            // self.view.backgroundColor = self.colors[closestBeacon.minor.integerValue]
         }
         else {
             
