@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B50E0DA81C4E985D00607A2F /* Ibeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E0DA71C4E985D00607A2F /* Ibeacon.swift */; };
+		B568F1CA1C4EC46A0003CA0B /* logo_childbeacon_azul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B568F1C91C4EC46A0003CA0B /* logo_childbeacon_azul.jpg */; };
 		B58F0FA71C26945C0034A113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F0FA61C26945C0034A113 /* AppDelegate.swift */; };
 		B58F0FA91C26945C0034A113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F0FA81C26945C0034A113 /* ViewController.swift */; };
 		B58F0FAC1C26945C0034A113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58F0FAA1C26945C0034A113 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		B50E0DA71C4E985D00607A2F /* Ibeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ibeacon.swift; sourceTree = "<group>"; };
+		B568F1C91C4EC46A0003CA0B /* logo_childbeacon_azul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_childbeacon_azul.jpg; sourceTree = "<group>"; };
 		B58F0FA31C26945C0034A113 /* ejemploibeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemploibeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58F0FA61C26945C0034A113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58F0FA81C26945C0034A113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		B58F0F9A1C26945C0034A113 = {
 			isa = PBXGroup;
 			children = (
+				B568F1C91C4EC46A0003CA0B /* logo_childbeacon_azul.jpg */,
 				B58F0FA51C26945C0034A113 /* ejemploibeacons */,
 				B58F0FBA1C26945C0034A113 /* ejemploibeaconsTests */,
 				B58F0FC51C26945C0034A113 /* ejemploibeaconsUITests */,
@@ -236,6 +239,7 @@
 				B58F0FB11C26945C0034A113 /* LaunchScreen.storyboard in Resources */,
 				B58F0FAE1C26945C0034A113 /* Assets.xcassets in Resources */,
 				B58F0FAC1C26945C0034A113 /* Main.storyboard in Resources */,
+				B568F1CA1C4EC46A0003CA0B /* logo_childbeacon_azul.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
