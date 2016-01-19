@@ -42,6 +42,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             let closestBeacon = knownBeacons[0] as CLBeacon
             var t = ""
             nombre.text = region.identifier
+            
             //print( closestBeacon.accuracy.description)
             var texto = "\(closestBeacon.accuracy)"
             self.cajadistancia.text = "\(cajadistancia.text) \(texto)"
