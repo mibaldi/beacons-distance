@@ -31,10 +31,11 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         locationManager.delegate=self
         if CLLocationManager.authorizationStatus() != CLAuthorizationStatus.AuthorizedWhenInUse {
             locationManager.requestWhenInUseAuthorization()
-            cajatexto.text="hola2"
+           
         }
         locationManager.startRangingBeaconsInRegion(region)
-        cajatexto.text="hola3"
+        cajatexto.text = "no se encuentran dispositivos"
+        nombre.text = ""
     }
     
     func locationManager(manager: CLLocationManager, didRangeBeacons beacons: [CLBeacon], inRegion region: CLBeaconRegion){
@@ -54,7 +55,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             }
         }
         else {
-            
+            nombre.text = ""
             cajatexto.text = "no se encuentran dispositivos"
         }
     }

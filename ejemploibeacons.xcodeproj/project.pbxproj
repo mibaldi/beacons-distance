@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B50E0DA81C4E985D00607A2F /* Ibeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E0DA71C4E985D00607A2F /* Ibeacon.swift */; };
+		B533CB1B1C58EC4E0077D979 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = B533CB1A1C58EC4E0077D979 /* ios */; };
 		B568F1CA1C4EC46A0003CA0B /* logo_childbeacon_azul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B568F1C91C4EC46A0003CA0B /* logo_childbeacon_azul.jpg */; };
 		B58F0FA71C26945C0034A113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F0FA61C26945C0034A113 /* AppDelegate.swift */; };
 		B58F0FA91C26945C0034A113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F0FA81C26945C0034A113 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		B58F0FB11C26945C0034A113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58F0FAF1C26945C0034A113 /* LaunchScreen.storyboard */; };
 		B58F0FBC1C26945C0034A113 /* ejemploibeaconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F0FBB1C26945C0034A113 /* ejemploibeaconsTests.swift */; };
 		B58F0FC71C26945C0034A113 /* ejemploibeaconsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F0FC61C26945C0034A113 /* ejemploibeaconsUITests.swift */; };
+		B5B969741C580AC000315386 /* start_512.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B969721C580AC000315386 /* start_512.png */; };
+		B5B969771C580B2C00315386 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B969761C580B2C00315386 /* edit.png */; };
+		B5B969791C58417400315386 /* MapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B969781C58417400315386 /* MapkitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		B50E0DA71C4E985D00607A2F /* Ibeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ibeacon.swift; sourceTree = "<group>"; };
+		B533CB1A1C58EC4E0077D979 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
 		B568F1C91C4EC46A0003CA0B /* logo_childbeacon_azul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_childbeacon_azul.jpg; sourceTree = "<group>"; };
 		B58F0FA31C26945C0034A113 /* ejemploibeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemploibeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58F0FA61C26945C0034A113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		B58F0FC21C26945C0034A113 /* ejemploibeaconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejemploibeaconsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58F0FC61C26945C0034A113 /* ejemploibeaconsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejemploibeaconsUITests.swift; sourceTree = "<group>"; };
 		B58F0FC81C26945C0034A113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B969721C580AC000315386 /* start_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_512.png; sourceTree = "<group>"; };
+		B5B969761C580B2C00315386 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		B5B969781C58417400315386 /* MapkitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapkitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +89,10 @@
 		B58F0F9A1C26945C0034A113 = {
 			isa = PBXGroup;
 			children = (
+				B5B969761C580B2C00315386 /* edit.png */,
+				B5B969721C580AC000315386 /* start_512.png */,
 				B568F1C91C4EC46A0003CA0B /* logo_childbeacon_azul.jpg */,
+				B533CB1A1C58EC4E0077D979 /* ios */,
 				B58F0FA51C26945C0034A113 /* ejemploibeacons */,
 				B58F0FBA1C26945C0034A113 /* ejemploibeaconsTests */,
 				B58F0FC51C26945C0034A113 /* ejemploibeaconsUITests */,
@@ -109,6 +120,7 @@
 				B58F0FAF1C26945C0034A113 /* LaunchScreen.storyboard */,
 				B58F0FB21C26945C0034A113 /* Info.plist */,
 				B50E0DA71C4E985D00607A2F /* Ibeacon.swift */,
+				B5B969781C58417400315386 /* MapkitViewController.swift */,
 			);
 			path = ejemploibeacons;
 			sourceTree = "<group>";
@@ -239,7 +251,10 @@
 				B58F0FB11C26945C0034A113 /* LaunchScreen.storyboard in Resources */,
 				B58F0FAE1C26945C0034A113 /* Assets.xcassets in Resources */,
 				B58F0FAC1C26945C0034A113 /* Main.storyboard in Resources */,
+				B5B969741C580AC000315386 /* start_512.png in Resources */,
+				B533CB1B1C58EC4E0077D979 /* ios in Resources */,
 				B568F1CA1C4EC46A0003CA0B /* logo_childbeacon_azul.jpg in Resources */,
+				B5B969771C580B2C00315386 /* edit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +281,7 @@
 			files = (
 				B58F0FA91C26945C0034A113 /* ViewController.swift in Sources */,
 				B58F0FA71C26945C0034A113 /* AppDelegate.swift in Sources */,
+				B5B969791C58417400315386 /* MapkitViewController.swift in Sources */,
 				B50E0DA81C4E985D00607A2F /* Ibeacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
